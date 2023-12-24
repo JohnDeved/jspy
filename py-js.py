@@ -5,8 +5,8 @@ from typing import Callable
 from javascript import require
 
 
-js_test: Callable[..., int] = require('./index.js')
+js_test: Callable[..., int] = require('./js/index.js')
 print(f"got {js_test()} from js in py")
 
-ts_test: Callable[..., int] = require('./index.ts').default
+ts_test: Callable[..., int] = require('./js/index.ts').default
 print(f"got {ts_test()} from ts in py")

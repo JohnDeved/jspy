@@ -1,5 +1,6 @@
 {
   "name": "jspy",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "pythonia": "^1.1.2",
     "tsx": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5"
   }
 }
